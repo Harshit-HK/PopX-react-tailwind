@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import CreateAccount from "./pages/CreateAccount";
 import Profile from "./pages/Profile";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/create" element={<CreateAccount />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="*" element={<NotFound />} /> 
       </Routes>
     </div>
   );
