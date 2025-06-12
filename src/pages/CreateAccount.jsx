@@ -5,13 +5,19 @@ import Radio from "../components/Radio";
 
 const CreateAccount = () => {
   const navigate = useNavigate();
+
+    const handleSubmit = (e) => {
+  e.preventDefault();
+  // validate + navigate 
+};
+
   return (
     <div>
       <div className="w-full bg-[#f8f8f8] p-[23px]">
         <h2 className="text-[32px] font-medium mb-6 text-gray-900 w-64 pt-[21px] pb-2 leading-[42px]">
           Create your PopX account
         </h2>
-        <form className="">
+        <form onSubmit={handleSubmit}>
           <div className="flex flex-col gap-[30px]">
             <CreateAccountInputField label={"Full Name"} type={"name"} />
             <CreateAccountInputField label={"Phone number"} type={"tel"} />
