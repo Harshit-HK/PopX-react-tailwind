@@ -8,7 +8,7 @@ const CreateAccount = () => {
 
     const handleSubmit = (e) => {
   e.preventDefault();
-  // validate + navigate 
+  navigate('/profile')
 };
 
   return (
@@ -38,7 +38,6 @@ const CreateAccount = () => {
           <button
             type="submit"
             className="w-full bg-[#6709ff] text-white text-lg p-3  rounded-md font-semibold mt-[247px] mb-3"
-            onClick={() => navigate("/profile")}
           >
             Create Account
           </button>

@@ -7,7 +7,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
   e.preventDefault();
-  // validate + navigate 
+  navigate('/profile')
 };
   return (
     <div className="">
@@ -31,7 +31,6 @@ const Login = () => {
           <button
             type="submit"
             className="w-full bg-[#cccccc] text-white text-lg p-3 mt-[14px] rounded-md font-semibold"
-            onClick={()=>navigate('/profile')}
           >
             Login
           </button>
