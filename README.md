@@ -13,4 +13,4 @@ A clean and responsive user onboarding interface inspired by the PopX app. Built
 
 ## 🚀 Live Demo
 
-[🔗 View Live Site](https://your-live-demo-link.vercel.app)
+[🔗 View Live Site](https://pop-x-react-tailwind-xjwg.vercel.app/)
