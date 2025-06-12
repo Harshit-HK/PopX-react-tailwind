@@ -5,7 +5,7 @@ const CreateAccountInputField = ({ label, type }) => {
     <div className="relative">
       <label
         htmlFor={type}
-        className="absolute bg-[#f8f8f8] top-[-12px] left-3 text-[15px] text-violet-700 w-[120px] pl-1"
+        className="absolute bg-[#f8f8f8] top-[-12px] left-3 text-[15px] text-violet-700 w-[121px] pl-1"
       >
         {label}
         <span className="text-red-500">*</span>
